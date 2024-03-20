@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "warrenwebpart-client-side-solution",
+    "id": "e85daa68-7e39-41b8-bb30-96868496b722",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "warrenwebpart description"
+      },
+      "longDescription": {
+        "default": "warrenwebpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "warrenwebpart Feature",
+        "description": "The feature that activates elements of the warrenwebpart solution.",
+        "id": "0dc7b80c-0119-48a6-8027-5b15aa58283a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/warrenwebpart.sppkg"
+  }
+}
